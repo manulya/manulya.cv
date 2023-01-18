@@ -23,7 +23,7 @@
 }
 
 body {
-  background-image: url("./content/neon.png");
+  background-image: url("../content/neon.png");
   background-color: var(--main-background-color);
   background-position: center;
   background-position-y: -450px;
@@ -246,7 +246,7 @@ h4 {
 }
 
 .photo1 {
-  background-image: url("./content/photo1.jpg");
+  background-image: url("../content/photo1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -254,7 +254,7 @@ h4 {
   z-index: 0;
 }
 .photo2 {
-  background-image: url("./content/photo2.jpg");
+  background-image: url("../content/photo2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -262,7 +262,7 @@ h4 {
   z-index: 0;
 }
 .photo3 {
-  background-image: url("./content/photo3.jpg");
+  background-image: url("../content/photo3.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
