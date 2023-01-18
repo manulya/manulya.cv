@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+  <link rel="stylesheet" href="styles.css">
+
+ <head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+   <title>CV</title>
+ </head>
+   <body>
+
+    <header><h1>CV</h1>
+    <div class="mainHeader">
+        <h2>Manuilova Ulyana</h2>
+        <h3>Frontend developer</h3>
+    </div>    
+</header>
+    <nav class="hamburger_menu">
+        <input id="menu_toggle" type="checkbox" />
+        <label class="menu_btn" for="menu_toggle">
+          <span></span>
+        </label>
+        <ul class="menu_box">
+          <li><a class="menu_item" href="#inf">Contact Information</a></li>
+          <li><a class="menu_item" href="#edu">Education</a></li>
+          <li><a class="menu_item" href="#about">About</a></li>
+          <li><a class="menu_item" href="#photo">Photo</a></li>
+        </ul>
+    </nav>
+
+    
+      <button onclick="topFunction()" id="my_btn" title="Go to top">&#8593</button>
+ <main class="sections">
+    <section id="inf" class="section">
+    <h4>
+        Contact Information
+    </h4>
+    <ul>
+        <li>Minsk, Belarus</li>
+        <li><a href="mailto:ylianadans@gmail.com">ylianadans@gmail.com</a></li>
+        <li><a href="tel:+375292361946">+375292361946</a></li>
+        <li>tg: @manulia</li>
+        <li>19 y.o.</li>
+    </ul>
+</section>
+
+<section id="edu" class="section">
+    <h4>
+        Education
+    </h4>
+    <ul>
+    <li>
+        <p class="edu_name">Belarussian State University of Informatics and Radioelectronics<p>
+        <div>2020-2024</div>
+        <div class="item">Third-year student of the Faculty of Information Technology and Management, specializing in automated information processing systems.</div>
+        <div>Study C ++, probability theory and mathematical statistics, system analysis, algorithms and graphs, advanced Excel (VBA)</div>
+    </li>
+    <li></li>
+        <div class="edu_name">Self-education project</div>
+        Create social-network app using React/redux libraries, JS, CSS, HTML
+    </li>
+    <li>
+        <div class="edu_name">Courses</div>
+        <li>"Project management and business analysis", IBA Institute</li>
+    <li>Pre-Intermediate course of English,<br/> 2English Language School</li>
+    </li>
+    </ul>
+</section>
+<section id="about" class="section">
+    <h4> About </h4>
+    <p class="edu_name">Scientific activity</p>
+        <div>Took part in a scientific conference with a report on the topic "The use of artificial intelligence for HR-specialists"</div> 
+        <p class="edu_name">Hobbies
+            <ul>
+            <li>dancing</li>
+            <li>weightlifting</li>
+            <li>cross stitch</li>
+            <li>nail art</li>
+       </ul>
+    </p>
+    </section>
+
+
+    <section id="photo">
+       <div class="wrapper">
+        <input type="radio" name="point" id="photo1" checked>
+        <input type="radio" name="point" id="photo2">
+        <input type="radio" name="point" id="photo3">
+            <div class="slider">
+            <div class="slides photo1"></div>
+            <div class="slides photo2"></div>
+            <div class="slides photo3"></div>
+        </div>	
+        <div class="controls">
+            <label for="photo1"></label>
+            <label for="photo2"></label>
+            <label for="photo3"></label>
+        </div>
+    </div>
+</section>
+
+</main>
+
+ </body>
+<script src="index.js"></script>
+</html> 
